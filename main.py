@@ -12,7 +12,7 @@ def main():
 
     print("\nText extracted successfully!\n")
 
-    model = setup("AIzaSyBRm6cDhjmjLL7yiyc4vDQ7Z1E4x1-Y6Ws")
+    model = setup("API_KEY_HERE")
 
     questions = question_generator(model, text)
     while True:
